@@ -4,13 +4,13 @@
   grid-template-columns: 250px auto;
   height: 100vh;
   overflow: scroll;
+  
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  background-color: black;
-  color: white;
+  color: blue;
   grid-column: 1 / span 2;
   padding: 10px 5px;
 }
@@ -19,23 +19,29 @@ form {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-start;  
+  
 }
 
 form input,
 form textarea {
   margin-bottom: 10px;
   width: 300px;
+  
 }
 
 nav,
 article {
   height: 100%;
   padding: 10px;
+  
 }
 
+body{
+  background: linear-gradient(rgba(173,27,72,1) 35%, rgba(18,255,0,1) 100%);
+}
 nav {
-  background-color: #dee9ff;
+  background-color: linear-gradient(rgba(173,27,72,1) 35%, rgba(18,255,0,1) 100%);
 }
 
 nav p:hover {
